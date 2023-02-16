@@ -19,7 +19,7 @@ public class Phone {
     }
 
     public void receiveCall(String name, String number){
-        System.out.println("Звонит абонент по имени " + name + (number == "" ? "" : ", номер " + number));
+        System.out.println("Звонит абонент по имени " + name + (number == "" ? "" : ", номер " + number) + ".");
     }
 
 
